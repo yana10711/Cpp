@@ -14,9 +14,11 @@ bool is_mountain(std::vector <int>& v)
                     if (v[i] > v[i + 1]) continue;
                     else return false;
                 }
+            }
+                else return false;
                 return true;
             }
-        }
+        
     }
     return false;
 }
